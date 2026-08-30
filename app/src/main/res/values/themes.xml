@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AccedeED" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <item name="android:textAppearanceHeadline1">@style/TextAppearance.AccedeED.Headline1</item>
+        <item name="android:textAppearanceHeadline2">@style/TextAppearance.AccedeED.Headline2</item>
+        <item name="android:textAppearanceBody1">@style/TextAppearance.AccedeED.Body1</item>
+        <item name="android:textAppearanceBody2">@style/TextAppearance.AccedeED.Body2</item>
+    </style>
+
+    <style name="Theme.AccedeED.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <!-- Text Appearances -->
+    <style name="TextAppearance.AccedeED.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="TextAppearance.AccedeED.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="TextAppearance.AccedeED.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.AccedeED.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
