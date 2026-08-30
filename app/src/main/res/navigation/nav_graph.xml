@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.accedeed.app.ui.fragment.HomeFragment"
+        android:label="@string/nav_home" />
+
+    <fragment
+        android:id="@+id/nav_recursos"
+        android:name="com.accedeed.app.ui.fragment.RecursosFragment"
+        android:label="@string/nav_recursos" />
+
+    <fragment
+        android:id="@+id/nav_eventos"
+        android:name="com.accedeed.app.ui.fragment.EventosFragment"
+        android:label="@string/nav_eventos" />
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.accedeed.app.ui.fragment.ChatFragment"
+        android:label="@string/nav_chat" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.accedeed.app.ui.fragment.ProfileFragment"
+        android:label="@string/nav_profile" />
+
+</navigation>
