@@ -1,39 +1,23 @@
 package com.accedeed.app.model;
 
 public class User {
-    private String uid;
+    private String id;
     private String name;
     private String email;
-    private String profileImageUrl;
-    private String bio;
+    private String avatar;
 
-    public User() {}
-
-    public User(String uid, String name, String email) {
-        this.uid = uid;
+    public User(String id, String name, String email, String avatar) {
+        this.id = id;
         this.name = name;
         this.email = email;
+        this.avatar = avatar;
     }
 
-    public User(String uid, String name, String email, String profileImageUrl, String bio) {
-        this.uid = uid;
-        this.name = name;
-        this.email = email;
-        this.profileImageUrl = profileImageUrl;
-        this.bio = bio;
-    }
-
-    // Getters
-    public String getUid() { return uid; }
+    public String getId() { return id; }
     public String getName() { return name; }
     public String getEmail() { return email; }
-    public String getProfileImageUrl() { return profileImageUrl; }
-    public String getBio() { return bio; }
+    public String getAvatar() { return avatar; }
 
-    // Setters
-    public void setUid(String uid) { this.uid = uid; }
     public void setName(String name) { this.name = name; }
     public void setEmail(String email) { this.email = email; }
-    public void setProfileImageUrl(String profileImageUrl) { this.profileImageUrl = profileImageUrl; }
-    public void setBio(String bio) { this.bio = bio; }
 }

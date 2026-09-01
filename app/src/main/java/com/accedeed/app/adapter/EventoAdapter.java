@@ -1,0 +1,53 @@
+package com.accedeed.app.adapter;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.accedeed.app.R;
+import com.accedeed.app.model.Evento;
+
+import java.util.List;
+
+public class EventoAdapter extends RecyclerView.Adapter<EventoAdapter.EventoViewHolder> {
+    private List<Evento> eventos;
+
+    public EventoAdapter(List<Evento> eventos) {
+        this.eventos = eventos;
+    }
+
+    @NonNull
+    @Override
+    public EventoViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_evento, parent, false);
+        return new EventoViewHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull EventoViewHolder holder, int position) {
+        Evento evento = eventos.get(position);
+        holder.tvTitle.setText(evento.getTitle());
+        holder.tvDate.setText(evento.getDate());
+        holder.tvTime.setText(evento.getTime());
+    }
+
+    @Override
+    public int getItemCount() {
+        return eventos.size();
+    }
+
+    public static class EventoViewHolder extends RecyclerView.ViewHolder {
+        TextView tvTitle, tvDate, tvTime;
+
+        public EventoViewHolder(@NonNull View itemView) {
+            super(itemView);
+            tvTitle = itemView.findViewById(R.id.tv_title);
+            tvDate = itemView.findViewById(R.id.tv_date);
+            tvTime = itemView.findViewById(R.id.tv_time);
+        }
+    }
+}
