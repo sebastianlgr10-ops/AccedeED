@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesProjectConfiguration">
+    <rma>
+      <option name="myId" value="0" />
+      <option name="myName" value="Maven repositories" />
+      <option name="myDefaultLevel" value="2" />
+    </rma>
+  </component>
+</project>

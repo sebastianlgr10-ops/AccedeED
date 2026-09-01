@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace version="4">
+  <component name="AutoImportSettings">
+    <option name="autoImportDependencies" value="true" />
+    <option name="optimizeImports" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <option name="TRACKING_ENABLED" value="true" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="0" />
+    <option name="y" value="0" />
+  </component>
+  <component name="ProjectLevelVcsManager" version="4">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <option name="LAST_REPOSITORY_USED" value="" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected.tab" value="SDK" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">    </task>
+  </component>
+  <component name="ToolWindowManager">
+    <layout-to-restore state="bottom-sheet" layout="LayoutStateRestored" />
+  </component>
+</workspace>
